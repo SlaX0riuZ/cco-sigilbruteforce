@@ -1,0 +1,23 @@
+Divine Collector's Cube Price Check
+
+first: base price + tally cap + divine base price increase
+next: mult by tally multiplier, then mult by divine price multiplier
+next: add leftover tallies (negligible), then mult by COLLECTOR'S divine price multiplier
+next: add divine price addition, then mult by prefix multi (with accentuation)
+
+THEN sigils are applied
+
+
+Required Data to Get (from site):
+[ ] How prefix accentuation works with the boom/wood sigil on Coldivs
+[ ] How stacked prefixes work (what's the equation?)
+
+
+Required User Inputs:
+1) Base price
+2) Base tally cap {assume max tallies are on cube when value scoring}
+3) Divine price multiplier
+4) Collector's Divine price multiplier
+5) Number of prefixes on cube, then shown multiplier (like how amorous is x77) for each
+6) Number of base materials on cube
+7) Divine price addition
