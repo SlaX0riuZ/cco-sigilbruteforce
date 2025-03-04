@@ -1,21 +1,3 @@
-prefixaccentuation = {
-    'common': 1,
-    'uncommon': 1,
-    'rare': 1,
-    'epic': 1,
-    'legendary': 1,
-    'relic': 1,
-    'cubic': 1,
-    'gold': 1,
-    'exotic': 1,
-    'unreal': 1,
-    'mythic': 1,
-    'crafted': 1,
-    'divine': 1,
-    'slated': 1,
-    'special': 1,
-    'collectors': 1
-}
 sigils = { # assumed T7, will change soon
     "brim": 0.7, # brimstone T7, increases price by 70%
     "dice": 7, # dice T7, increases tally price modifier by +7
