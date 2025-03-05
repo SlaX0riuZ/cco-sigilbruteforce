@@ -10,3 +10,21 @@ sigils = { # assumed T7, will change soon
     "wood": 7, # wood T7, increases prefix multiplier by 7 per 35k tallies, max 28x
     "grape": 175000 # grape T7, adds 175000 full-powered tallies to cube
 }
+
+prefixaccentuation = {
+    'common': 1,
+    'uncommon': 1,
+    'rare': 1,
+    'epic': 1.1,
+    'legendary': 1.2,
+    'relic': 1.3,
+    'cubic': 1.6,
+    'gold': 2.2,
+    'exotic': 2.6,
+    'unreal': 3.2,
+    'mythical': 7,
+    'slated': 1,
+    'divine': 1.3,
+    'collectors': 1,
+    'crafted': 1.5
+}

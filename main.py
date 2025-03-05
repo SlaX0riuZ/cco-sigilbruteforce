@@ -15,15 +15,22 @@ import dictkeep
 
 class createBaseCube():
     def __init__(self, baseprice, tallycap, prefixarray, materialcount, sigilslots, rarity, bsidebool):
-        self.baseprice = baseprice
-        self.tallycap = tallycap
-        self.prefixarray = prefixarray
-        self.materialcount = materialcount
-        self.sigilslots = sigilslots
-        self.rarity = rarity
-        self.bsidebool = bsidebool
+        self.baseprice, self.tallycap, self.prefixarray = baseprice, tallycap, prefixarray
+        self.materialcount, self.sigilslots, self.rarity, self.bsidebool = materialcount, sigilslots, rarity, bsidebool
         
-        if self.bsidebool:
-            self.tallymultiplier = 24
-        else:
-            self.tallymultiplier = 6
+        self.tallymultiplier = 24 if self.bsidebool else 6 # Sets tally multi to 24 if it's b-side; else default to 6
+    
+    def __repr__(self):
+        return f'Base Price: {self.baseprice}, Tally Cap: {self.tallycap}'
+
+# Test Cube 1: Tallying Glitchy Hypnotic Emburdening Parfait Cube
+testcube1 = createBaseCube(7099605, 999999999, [76,8,122], 13, 3, 'crafted', 0)
+
+# Test Cube 2: Tallying B-Side Crust Cube
+testcube2 = createBaseCube(139222, 150000, [-1], 2, 7, 'cubic', 1)
+
+# Test Cube 3: XX - The Sun
+testcube3 = createBaseCube(250000, -1, [-1], 2, 5, 'cubic', 0)
+print(testcube2.tallymultiplier)
+
+
