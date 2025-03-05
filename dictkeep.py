@@ -1,14 +1,13 @@
-sigils = { # assumed T7, will change soon
-    "brim": 0.7, # brimstone T7, increases price by 70%
-    "dice": 7, # dice T7, increases tally price modifier by +7
-    "eventhorizon": 2.1, # event horizon T7, increases tally cap by 210%
-    "neon": 7, # neon T7, increases materials on cube by 7 per material
-    "boom": 21, # boom T7, increases prefix multiplier by 21/prefix
-    "pencil": 2.1, # pencil T7, increases tour rewards by 210%
-    "pie": 2.1, # pie T7, increases price by 210% if tallies are maxed (assumed)
-    "fortune": .21, # fortune T7, increases price by 21% per material on cube
-    "wood": 7, # wood T7, increases prefix multiplier by 7 per 35k tallies, max 28x
-    "grape": 175000 # grape T7, adds 175000 full-powered tallies to cube
+sigils = { # assumed T1 base, multiply by tier
+    "brim": 0.1, # brimstone T1, increases price by 10%
+    "dice": 1, # dice T1, increases tally price modifier by +1
+    "eventhorizon": .3, # event horizon T1, increases tally cap by 30%
+    "neon": 1, # neon T1, increases materials on cube by 1 per material
+    "boom": 3, # boom T1, increases prefix multiplier by 3/prefix
+    "pie": .3, # pie T1, increases price by 210% if tallies are maxed (assumed)
+    "fortune": .03, # fortune T1, increases price by 21% per material on cube
+    "wood": 1, # wood T1, increases prefix multiplier by 1 per 35k tallies, max 4x
+    "grape": 25000 # grape T1, adds 25000 full-powered tallies to cube
 }
 
 prefixaccentuation = {
